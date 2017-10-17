@@ -50,6 +50,10 @@
     "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saumera/PropertyLookerUpper.git"
+  },
   "author": "",
   "license": "ISC"
 }
