@@ -4,7 +4,6 @@ import MyForm from './MyForm'
 
 export interface MainStateProps {
   address: string;
-  view: string;
 }
 
 export interface MainDispatchProps {

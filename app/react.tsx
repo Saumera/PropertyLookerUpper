@@ -21,20 +21,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 
 import MainContainer from './components/MainContainer'
-//import Main from './components/Main'
-
-// TODO: figure out how to store API key in config
-//import * as config from '../config.json'
-//console.log(config);
-
-// Needed for onTouchTap
-const injectTapEventPlugin = require('react-tap-event-plugin');
-try {
-  injectTapEventPlugin();
-} catch (e) {
-  console.log('Already injected tap event plugin');
-}
-
 
 var store: any = null;
 

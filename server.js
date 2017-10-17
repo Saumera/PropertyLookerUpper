@@ -39,7 +39,7 @@ if (isDeveloping) {
     const params = '?zws-id=' + zillowConfig.zwsid
       + '&address=' + req.query.address
       + '&citystatezip=' + req.query.citystatezip;
-    const url = 'http://www.zillow.com/webservice/GetDeepSearchResults.html'
+    const url = 'http://www.zillow.com/webservice/GetDeepSearchResults.htm'
       + encodeURIComponent(params);
     request(url, function(error, response, body) {
       console.log('error:', error);
